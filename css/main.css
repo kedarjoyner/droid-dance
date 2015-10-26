@@ -1,0 +1,74 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+#main {
+	margin: 0 auto;
+	max-width: 80%;
+	position: relative;
+}
+
+#content {
+	text-align: center;
+	overflow: hidden;
+}
+
+#droid-dance  {
+	width: 670px;
+	height:450px; 
+  display: none;
+}
+
+button {
+  font-family: arial, sans-serif;
+  font-size: 1em;
+	color: white;
+	text-transform: uppercase;
+	outline: none;
+  margin-top: 230px;
+	/*margin-top: 20px;*/
+	margin-bottom: 50px;
+	appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+
+  background-color:#0e83cd;
+  padding: 25px 90px;
+  border: 0;
+  transition: all 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+button:hover {
+	background: #CF4647;
+}
+
+@media only screen and (max-width: 800px) {
+    #droid-dance {
+       width: 335px;
+       height: 225px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
